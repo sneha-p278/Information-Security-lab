@@ -1,0 +1,32 @@
+whoami  
+pwd  
+adduser sneha  
+cat /etc/passwd  
+cat /etc/shadow  
+addgroup "Third Year"  
+cat /etc/group  
+vi sneha_script.sh  
+ls -l  
+ls -a  
+vi sneha_sample.txt  
+ls -l  
+chmod o-r sneha_sample.txt  
+chmod g+x sneha_sample.txt  
+chmod o-r-w sneha_sample.txt  
+chmod o+r+w sneha_sample.txt  
+chmod 777 sneha_sample.txt  
+chmod 000 sneha_sample.txt  
+chmod 600 sneha_sample.txt  
+vi greet_sneha.sh  
+echo "What is your name?"  
+read user  
+echo "Hello $user!!"  
+vi math_sneha.sh  
+echo "Enter 1st number:"  
+read a  
+echo "Enter 2nd number:"  
+read b  
+echo "sum=" $((a+b))  
+echo "difference=" $((a-b))  
+echo "Multiplication=" $((a*b))  
+echo "Division=" $((a/b))
